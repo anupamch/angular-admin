@@ -8,12 +8,16 @@ import {DataTablesModule} from 'angular-datatables';
 import { HttpClientModule } from '@angular/common/http'
 import { ApiService } from './services/api.service';
 import { NavbarComponent } from './navbar/navbar.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

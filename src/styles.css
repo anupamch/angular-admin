@@ -5,8 +5,7 @@
     width: 250px; /* 0 width - change this with JavaScript */
     position:relative; /* Stay in place */
     z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
+    
     background-color: rgb(232, 238, 241); /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 50px; /* Place content 60px from the top */
@@ -27,6 +26,9 @@
   /* When you mouse over the navigation links, change their color */
   .sidenav a:hover {
     color: #f1f1f1;
+  }
+  .menu_height{
+      height: 800px;
   }
   
   /* Position and style the close button (top right corner) */
